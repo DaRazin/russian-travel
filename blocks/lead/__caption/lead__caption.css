@@ -1,8 +1,7 @@
 .lead__caption {
   display: flex;
   margin: 8px auto 92px;
-  max-width: 984px;
-  min-width: 984px;
+  width: calc(100% - 296px);
   justify-content: space-between;
   text-transform: uppercase;
   font-family: Inter;
@@ -16,26 +15,24 @@
 
 @media screen and (max-width: 1279px) {
   .lead__caption {
-    max-width: 928px;
-    min-width: 928px;
+    width: calc(100% - 96px);
+    margin: 8px auto 92px;
   }
   
 }
 
 @media screen and (max-width: 1023px) {
   .lead__caption {
-    max-width: 768px;
-    min-width: 768px;
-    margin-bottom: 88px;
+    width: 100%;
+    margin: 8px auto 88px;
     padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__caption {
-    max-width: 320px;
-    min-width: 320px;
-    margin-bottom: 64px;
+    width: 100%;
+    margin: 8px auto 64px;
     padding-left: 16px;
   }
 }

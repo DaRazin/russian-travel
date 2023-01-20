@@ -32,14 +32,5 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-/*@font-face {
-    font-family: Inter-Black;
-    src: url(../fonts/Inter/Inter-Black.otf);
-    font-style: normal;
-}
+@import url(../blocks/cover/__img/cover__img.css);
 
-@font-face {
-    font-family: Inter-Regular;
-    src: url(../fonts/Inter/Inter-Regular.otf);
-    font-style: normal;
-}*/

@@ -1,6 +1,6 @@
 .places__place {
   display: grid;
-  max-width: 984px;
+  width: calc(100% - 296px);
   margin: 0 auto 80px;
   padding: 0;
   grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1279px) {
   .places__place {
-    max-width: 928px;
+    width: calc(100% - 96px);
     column-gap: 32px;
     grid-template-columns: min-content minmax(min-content, max-content);
   }
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1023px) {
   .places__place{
-    max-width: 720px;
+    width: calc(100% - 48px);
     column-gap: 28px;
     grid-template-columns: min-content minmax(min-content, max-content);
     margin-bottom: 73px;
@@ -29,9 +29,11 @@
 
 @media screen and (max-width: 767px) {
   .places__place {
-    max-width: 320px;
-    grid-template-columns: min-content;
+    width: 100%;
+    grid-template-columns: 1fr;
     row-gap: 32px;
     margin-bottom: 50px;
   }
+
+
 }

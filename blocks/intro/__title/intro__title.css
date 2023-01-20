@@ -1,8 +1,6 @@
 .intro__title {
   display: flex;
-  max-width: 984px;
-  min-width: 984px;
-  max-height: 58px;
+  width: calc(100% - 296px);
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
@@ -15,26 +13,21 @@
 
 @media screen and (max-width: 1279px) {
   .intro__title {
-    max-width: 928px;
-    min-width: 928px;
+    width: calc(100% - 96px);
   }
   
 }
 
 @media screen and (max-width: 1023px) {
   .intro__title {
-    max-width: 768px;
-    min-width: 768px;
-    padding-left: 24px;
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__title {
-    max-width: 320px;
-    min-width: 320px;
+    width: calc(100% - 32px);
     font-size: 32px;
     line-height: 35px;
-    padding-left: 16px;
   }
 }

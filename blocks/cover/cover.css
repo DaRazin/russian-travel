@@ -2,30 +2,23 @@
   margin: 0 auto 0;
   padding: 0;
   position: relative;
-  width: 1184px;
-  height: 740px;
-  background-image: url(../../images/cover-trains.jpg);
-  background-position: center;
-  background-size: cover;
+  width: calc(100% - 96px);
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
-    width: 1024px;
-    height: 640px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    width: 768px;
-    height: 480px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    width: 320px;
-    height: 200px;
+    width: 100%;
   }
 }
