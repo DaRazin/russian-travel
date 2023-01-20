@@ -1,0 +1,20 @@
+.places__url-link {
+  display: flex;
+  text-align: left;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 101%;
+  font-weight: 400;
+  color: white;
+}
+
+.places__url-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .places__url-link {
+    margin-left: 16px;
+  }
+}

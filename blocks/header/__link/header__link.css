@@ -1,0 +1,35 @@
+.header__link {
+    margin: 0;
+    padding: 0;
+    margin-right: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+.header__link:last-child {
+  margin-right: 0;
+}
+
+.header__link:active {
+  text-decoration: underline;
+}
+
+.header__link:hover {
+  opacity: 0.8;;
+}
+.header__link:nth-child(1) {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px){
+  .header__link {
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

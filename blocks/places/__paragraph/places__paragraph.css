@@ -1,0 +1,35 @@
+.places__paragraph {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin-bottom: 26px;
+  color: white;
+}
+
+.places__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__paragraph {
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph{
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
