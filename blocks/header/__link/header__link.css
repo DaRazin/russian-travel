@@ -20,7 +20,7 @@
 }
 
 .header__link:hover {
-  opacity: 0.8;;
+  opacity: 0.8;
 }
 .header__link:nth-child(1) {
   text-decoration: underline;
