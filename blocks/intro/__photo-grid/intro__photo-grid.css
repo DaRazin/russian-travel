@@ -27,6 +27,7 @@
   .intro__photo-grid {
     width: calc(100% - 32px);
     grid-template-columns: 1fr;
+    gap: 12px;
     margin: 64px auto 64px;
   }
 }

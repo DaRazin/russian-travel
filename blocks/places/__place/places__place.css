@@ -9,6 +9,9 @@
   row-gap: 48px;
 }
 
+.places__place:last-child {
+  margin-bottom: 0;
+}
 @media screen and (max-width: 1279px) {
   .places__place {
     width: calc(100% - 96px);

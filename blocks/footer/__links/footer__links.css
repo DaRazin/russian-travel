@@ -10,7 +10,7 @@
   .footer__links {
     flex-direction: column;
     flex-wrap: wrap;
-    width: 320px;
+    width: 100%;
     margin: 0;
   }
 
