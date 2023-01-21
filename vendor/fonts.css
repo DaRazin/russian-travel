@@ -13,7 +13,7 @@
   font-weight: 700;
   src: 
     url(../vendor/fonts/Inter-Bold.woff),
-    url(../vendor/fonts/Inter-Bold.woff2)
+    url(../vendor/fonts/Inter-Bold.woff2);
 }
 
 @font-face {
@@ -22,5 +22,5 @@
   font-weight: 400;
   src: 
     url(../vendor/fonts/Inter-Regular.woff),
-    url(../vendor/fonts/Inter-Regular.woff2)
+    url(../vendor/fonts/Inter-Regular.woff2);
 }
