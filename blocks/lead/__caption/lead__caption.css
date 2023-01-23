@@ -4,9 +4,9 @@
   width: calc(100% - 296px);
   justify-content: space-between;
   text-transform: uppercase;
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 10px;
-  font-weight: 400px;
+  font-weight: 400;
   letter-spacing: 1.5px;
   color: white;
   box-sizing: border-box;
@@ -16,7 +16,6 @@
 @media screen and (max-width: 1279px) {
   .lead__caption {
     width: calc(100% - 96px);
-    margin: 8px auto 92px;
   }
   
 }
@@ -31,7 +30,6 @@
 
 @media screen and (max-width: 767px) {
   .lead__caption {
-    width: 100%;
     margin: 8px auto 64px;
     padding-left: 16px;
   }

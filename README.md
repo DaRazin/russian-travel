@@ -11,4 +11,4 @@
 
 *В работе соблюдены единые правила вёрстки методологии __БЭМ__ (блок — элемент — модификатор)*.
 
-*https://github.com/DaRazin/russian-travel.git*
+*https://darazin.github.io/russian-travel/index.html*
